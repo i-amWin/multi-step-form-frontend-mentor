@@ -9,7 +9,7 @@ export default function App() {
         <img
           src={BgMobile}
           alt=""
-          className="absolute top-0 left-0 -z-10 md:hidden"
+          className="absolute top-0 left-0 w-full -z-10 md:hidden"
         />
         <Steps />
 

@@ -53,7 +53,7 @@ export default function Steps() {
           >
             {step.number}
           </div>
-          <div>
+          <div className="hidden md:block">
             <p className="text-pastel-blue leading-tight">STEP {step.number}</p>
             <p className="font-medium">{step.text}</p>
           </div>
