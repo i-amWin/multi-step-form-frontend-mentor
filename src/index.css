@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --marine-blue: 213 96% 18%;
+  --purplish-blue: 243 100% 62%;
+  --pastel-blue: 228 100% 84%;
+  --light-blue: 206 94% 87%;
+  --strawberry-red: 354 84% 57%;
+
+  --cool-gray: 231 11% 63%;
+  --light-gray: 229 24% 87%;
+  --magnolia: 217 100% 97%;
+  --alabaster: 231 100% 99%;
+
+  --marie-blue: hsl(213 96% 18%);
+  --purlish-blue: hsl(243 100% 62%);
+  --patel-blue: hsl(228 100% 84%);
+  --lght-blue: hsl(206 94% 87%);
+  --trawberry-red: hsl(354 84% 57%);
+
+  --coo-gray: hsl(231 11% 63%);
+  --liht-gray: hsl(229 24% 87%);
+  --mgnolia: hsl(217 100% 97%);
+  --labaster: hsl(231 100% 99%);
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./assets/fonts/Ubuntu-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./assets/fonts/Ubuntu-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./assets/fonts/Ubuntu-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  @apply bg-magnolia;
+}
